@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resource/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="main">
+    <header>
+        <div id="header_logo" class="general-1">VINTAGE<i onclick="hideShowNav()" id="bars" class="fa-sharp fa-solid fa-bars"></i></div>
+        <div id="header_baner">
+            <div id="header_name-product" class="general-1" style="font-size: 2em;">Jeans</div>
+            <div id="header_tool">
+                
+                <div id="night-shift" onclick="NightShift()" class="general-1"><i class="fa-sharp fa-solid fa-moon"></i></div>
+                <div id="cart" onclick="messengerError()" class="general-1"><i style="font-size: 2em;" class="fa-sharp fa-solid fa-cart-shopping"></i></div>
+                <div id="search" onclick="messengerError()"  class="general-1"><i style="font-size: 2em;" class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+        </div>
+    </header>
+
+    <div id="main_content">
+        <div id="layerOpacity" onclick="hideShowNav()"></div>
+        <nav>
+            <div id="list_product">
+                <ul>
+
+                   <ul>
+                      <li id="Shirts-hide">Shirts
+                        <ul id="Shirts">
+                             <li>T-shirt</li>
+                             <li>Sweater-shirt</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    
+                    <ul>
+                        <li id="Dresses-hide">Dresses
+                            <ul id="Dresses">
+                                <li>Dresses-a</li>
+                                <li>Dresses-b</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                   <ul>
+                        <li id="Jeans-hide">Jeans
+                            <ul id="Jeans">
+                                <li>quần</li>
+                                <li>áo</li>
+                                <li>túi</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                   <ul>
+                        <li id="Jackets-hide">Jackets        
+                            <ul id="Jackets">
+                                <li>Jackets-a</li>
+                                <li>Jackets-b</li>
+                                <li>Jackets-c</li>
+                            </ul>
+                        </li>
+                    </ul> 
+                    
+                   <ul>
+                        <li id="Gymwear-hide">Gymwear        
+                            <ul id="Gymwear">
+                                <li>Gymwear-a</li>
+                                <li>Gymwear-b</li>
+                                <li>Gymwear-c</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                   <ul>
+                        <li id="Blazers-hide">Blazers        
+                            <ul id="Blazers">
+                                <li>Blazers-yellow</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                   <ul>
+                        <li id="Shoes-hide">Shoes         
+                            <ul id="Shoes">
+                                <li>chưa có sản phẩm phù hợp</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </ul>
+            </div>
+
+            <div id="contact">
+                <ul>
+                    <li>Contact</li>
+                    <li>Newsleter</li>
+                    <li><a href="#section_subcribe">Subscribe</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section>
+            <div id="section_baner">
+                <img id="section_image-baner" src="/resource/images/section_baner.jpg" alt="baner">
+                <h1>New arrivals</h1>
+                <h2>collection 2016</h2>
+                <button id="button-1"><a href="#section_product">SHOP NOW</a></button>
+            </div>
+            <div id="number_items"><p style="color:gray;">8 items</p></div>
+            <div id="section_product">
+                <div class="product">
+                    <div class="image_product">
+                        <img src="/resource/images/jean.jpg" alt="product">
+                    </div>
+                    <div class="infor_product">
+                        <p class="defaut">quần jean AMIRI</p>
+                        <p>1.200500 đ</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image_product">
+                        <img src="/resource/images/jean.jpg" alt="product">
+                    </div>
+                    <div class="infor_product">
+                        <p class="defaut">quần jean AMIRI</p>
+                        <p>1.200500 đ</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image_product">
+                        <img src="/resource/images/jean.jpg" alt="product">
+                    </div>
+                    <div class="infor_product">
+                        <p class="defaut">quần jean AMIRI</p>
+                        <p>1.200500 đ</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image_product">
+                        <img src="/resource/images/jean.jpg" alt="product">
+                    </div>
+                    <div class="infor_product">
+                        <p class="defaut">quần jean AMIRI</p>
+                        <p>1.200500 đ</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image_product">
+                        <img src="/resource/images/jean.jpg" alt="product">
+                    </div>
+                    <div class="infor_product">
+                        <p class="defaut">quần jean AMIRI</p>
+                        <p>1.200500 đ</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image_product">
+                        <img src="/resource/images/jean.jpg" alt="product">
+                    </div>
+                    <div class="infor_product">
+                        <p class="defaut">quần jean AMIRI</p>
+                        <p>1.200500 đ</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image_product">
+                        <img src="/resource/images/jean.jpg" alt="product">
+                    </div>
+                    <div class="infor_product">
+                        <p class="defaut">quần jean AMIRI</p>
+                        <p>1.200500 đ</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image_product">
+                        <img src="/resource/images/jean.jpg" alt="product">
+                    </div>
+                    <div class="infor_product">
+                        <p class="defaut">quần jean AMIRI</p>
+                        <p>1.200500 đ</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="section_subcribe">
+                <div id="main_section-subcribe">
+                    <div id="sub_text">
+                         <p>SUBCRIBE</p>
+                    </div>
+                    <div id="form_input">
+                        <p>To get special offer and VIP treatment</p>
+                         <form action="" method="">
+                             <input id="email" type="email" placeholder="Enter E-mail" required>
+                             <input id="submit" type='submit' value="Subcribe" autocomplete="on">
+                         </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+</div>
+<script src="process.js"></script>
+</body>
+</html>
